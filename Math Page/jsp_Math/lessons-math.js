@@ -27,17 +27,22 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "2") {
     var titles = ["Introduction to Addition", "Visual Represetation", "Addends, Sum, and Basic Computation", "Vertical Addition", "Addition with regrouping", "Addition without regrouping", "Word Problems"];
     var imageLoc = [
-        "../Math Page/img-math/addition/Counting Num.png",
-        "../Science Page/img/thumbnails/sense-organs.png",
+        "../Math Page/img-math/addition/Addition.PNG",
+        "../Math Page/img-math/addition/Visual Rep.PNG",
+        "../Math Page/img-math/addition/Basic Computation.PNG",
+        "../Math Page/img-math/addition/Vetical Add.PNG",
+        "../Math Page/img-math/addition/Regrouping.PNG",
+        "../Math Page/img-math/addition/Without Regrouping.PNG",
+        "../Math Page/img-math/addition/Word Problem.PNG",
     ];
     var subcontent = [
         "Addition is taking two or more numbers and adding them together",
         "Visual Representation consists of materials (mostly with pictures or images) to help interpret the numbers",
         "Basic Computation is when things are put together, we do addition. Sum is the result of adding two or more numbers. Addends is any of the numbers that are added together",
         "Vertical Addition is addition by writing one number below the other and then adding one column at a time. ",
-        "Word Problem is a few sentences describing a 'real-life' scenario where a problem needs to be solved by way of a mathematical calculation.",
+        "Regrouping is when the numbers you are adding come out to two-digit numbers if they are not in the furthermost left column",
         "Without Regrouping adding digit number without carrying. In two-digit number, one number is in ones place and other number is in tens place.",
-        "Regrouping is when the numbers you are adding come out to two-digit numbers if they are not in the furthermost left column"
+        "Word Problem is a few sentences describing a 'real-life' scenario where a problem needs to be solved by way of a mathematical calculation."
     ];
     for (var temp = 1; temp <= titles.length; temp++) {
         Populate(temp, titles[temp - 1], imageLoc[temp - 1], subcontent[temp - 1]);
@@ -46,8 +51,11 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "3") {
     var titles = ["Subracting using Objects", "Subtracting Sentence", "Subtracting Minuend and Subtrahend", "Subtraction with regrouping", "Subtraction without regrouping"];
     var imageLoc = [
-        "../Science Page/img/thumbnails/parts.png",
-        "../Science Page/img/thumbnails/sense-organs.png",
+        "../Math Page/img-math/subtraction/Subtracting Obj.PNG",
+        "../Math Page/img-math/subtraction/Subtracting Sentence.PNG",
+        "../Math Page/img-math/subtraction/Minuend Subtrahend.PNG",
+        "../Math Page/img-math/subtraction/With regrouping.PNG",
+        "../Math Page/img-math/subtraction/Without regrouping.PNG",
     ];
     var subcontent = [
         "A subtracting objects is a kind of subtracting numbers that uses objects like shapes, animals, foods and other related things that can be counted as well. ",
@@ -65,15 +73,13 @@ if (sessionStorage.getItem("ID") === "1") {
     var titles = ["Introduction to Fraction", "Parts of Fraction", "Writing of fractions"];
     var imageLoc = [
         "../Math Page/img-math/fraction/Intro to Fraction.png",
-        "..",
+        "../Math Page/img-math/fraction/Parts of Fraction.png",
         "../Math Page/img-math/fraction/Writing Frac.png",
     ];
     var subcontent = [
         "Fractions are numbers that represent a part of the whole. When an object or a group of objects is divided into equal parts, then each individual part is a fraction.",
         "Fraction is composed of two numbers: the numerator is the top part of the fraction that represents how many parts it has, while the bottom part is the denominator which represents the number of equal parts that a whole has.",
-        "A subtraction with regrouping is a process of exchanging one’s and tens into ten ones. We use regrouping in subtraction when the minuend is smaller than the subtrahend",
-        "A subtraction without regrouping is like a normal subtraction, no borrowing of numbers and no regrouping of numbers. ",
-    ];
+        "Fraction can also be written in word form. Write the numerator, add a hyphen and then spell out the denominator. In word form, the fraction ½ would be spelled out as one-half."    ];
     for (var temp = 1; temp <= titles.length; temp++) {
         Populate(temp, titles[temp - 1], imageLoc[temp - 1], subcontent[temp - 1]);
     }
@@ -111,7 +117,7 @@ if (sessionStorage.getItem("ID") === "1") {
         "The object of art is to give life a shape! That’s why shapes are everywhere! In this topic, you will be introduced to the concept of Shapes and why is it important to learn it.",
         "Learning from the basic strengthens your foundation. In this topic, you will be familiarized with the basic shapes and its example. ",
         "Polygons are fashionable at the moment - particularly in arcades! In this topic, basic introduction to polygons will be discussed, focusing to the regular polygons and its example.",
-        ": Now that you already know Regular Polygons, it’s Irregular Polygons time! In this topic, you will be able to know irregular polygons and differentiate it from the regular polygons.",
+        "Now that you already know Regular Polygons, it’s Irregular Polygons time! In this topic, you will be able to know irregular polygons and differentiate it from the regular polygons.",
         "Understanding shapes will enable students to be more in tune to the world around them and see the connections between objects, as well as being better able to appreciate artistic works.",
 
     ];

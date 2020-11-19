@@ -31,6 +31,15 @@ $percentage = ($done / $total) * 100;
 
 <body>
 
+<div class="progressbar-container">
+    <!-- <h1>Progress: <?= $done ?> / <?= $total ?> = </h1> -->
+    <h1>PROGRESS: </h1>
+
+    <div class="meter animate">
+            <span style="width:<?=$percentage?>%">&nbsp;&nbsp;&nbsp;<?=$percentage?>%<span></span></span>
+        </div>
+
+    </div>
 
     <div class="container">
     <br>
@@ -73,6 +82,7 @@ $percentage = ($done / $total) * 100;
 
 </html>
     <script src="../../jsp_English/progress.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 </body>
 
 </html>

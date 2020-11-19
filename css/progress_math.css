@@ -1,206 +1,338 @@
-body{
-  margin: 0px;
-  overflow-x: hidden;
-}
-.btn_back{
-  top: 20px;
-  margin-top: 20px;
-  margin-right: 30px;
-  height: 60px;
-  border-radius: 45px;
-  border-width: 7px;
-  border-color: #704915;
-  background-color: #0A3400;
-  border-style: solid;
-  color: white;
-  width: 180px;
-  font-size: 30px;
-  float: right;
-  font-family: 'Segoe UI';
-  font-weight: bold;
-  position: sticky;
-  z-index: 1;
-}
-.btn_back:hover{
-  background-color:   #103506;
-  -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+body {
+    margin: 0px;
+    overflow-x: hidden;
 }
 
-.container{
-  height: 2100px;
-  background-image: url("../images/progress.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 110%;
-  background-attachment: scroll;
-  background-size: cover;
+.btn_back {
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 60px;
+    border-radius: 45px;
+    border-width: 7px;
+    border-color: #704915;
+    background-color: #0A3400;
+    border-style: solid;
+    color: white;
+    width: 180px;
+    font-size: 30px;
+    float: right;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    position: sticky;
+    z-index: 1;
 }
 
-div.circle1{
-  position: absolute;
-  left: 50%; 
-  top: 28%; 
-  transform: translate(-40%, -50%);
-  transition: 1s;
-}
-.lock1{
-  position: absolute;
-  left: 50%; 
-  top: 28%; 
-  transform: translate(-40%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
-}
-.circle{
-  width: 120px;
-  height: 120px;
-}
-div.circle2{
-  left: 30%; 
-  top: 40%; 
-  position: absolute;
-  transform: translate(-40%, -50%);
-  transition: 1s;
-}
-.lock2{
-  left: 30%; 
-  top: 40%; 
-  position: absolute;
-  transform: translate(-40%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
-}
-div.circle3{
-  left: 79%; 
-  top: 70%; 
-  position: absolute;
-  transform: translate(-40%, -50%);
-  transition: 1s;
-}
-.lock3{
-  left: 79%; 
-  top: 70%; 
-  position: absolute;
-  transform: translate(-40%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
+.btn_back:hover {
+    background-color: #103506;
+    -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+    box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
 }
 
-div.circle4{
-  left: 19%; 
-  top: 90%; 
-  position: absolute;
-  transform: translate(-40%, -50%);
-  transition: 1s;
-}
-.lock4{
-  left: 19%; 
-  top: 90%; 
-  position: absolute;
-  transform: translate(-40%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
+.container {
+    height: 2100px;
+    background-image: url("../images/progress.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: -100px;
 }
 
-div.circle5{
-  left: 47%; 
-  top: 135%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
-}
-.lock5{
-  left: 47%; 
-  top: 135%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
+div.circle1 {
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translate(-40%, -50%);
+    transition: 1s;
 }
 
-div.circle6{
-  left: 82%; 
-  top: 150%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
+.lock1 {
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translate(-40%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
 }
-.lock6{
-  left: 82%; 
-  top: 150%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
+
+.circle {
+    width: 120px;
+    height: 120px;
 }
-div.circle7{
-  left: 30%; 
-  top: 173%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
+
+div.circle2 {
+    left: 30%;
+    top: 40%;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
 }
-.lock7{
-  left: 30%; 
-  top: 173%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
+
+.lock2 {
+    left: 30%;
+    top: 40%;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
 }
-div.circle8{
-  left: 42%; 
-  top: 225%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
+
+div.circle3 {
+    left: 79%;
+    top: 70%;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
 }
-.lock8{
-  left: 42%; 
-  top: 225%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
+
+.lock3 {
+    left: 79%;
+    top: 70%;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
 }
-div.circle9{
-  left: 10%; 
-  top: 256%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
+
+div.circle4 {
+    left: 19%;
+    top: 90%;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
 }
-.lock9{
-  left: 10%; 
-  top: 256%; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
+
+.lock4 {
+    left: 19%;
+    top: 90%;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
 }
-div.circle0{
-  left: 1020px; 
-  top: 1800px; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
+
+div.circle5 {
+    left: 47%;
+    top: 135%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
 }
-.lock10{
-  left: 1020px; 
-  top: 1800px; 
-  position: absolute;
-  transform: translate(-50%, -50%);
-  transition: 1s;
-  width: 120px;
-  height: 120px;
+
+.lock5 {
+    left: 47%;
+    top: 135%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+}
+
+div.circle6 {
+    left: 82%;
+    top: 150%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.lock6 {
+    left: 82%;
+    top: 150%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+}
+
+div.circle7 {
+    left: 30%;
+    top: 173%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.lock7 {
+    left: 30%;
+    top: 173%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+}
+
+div.circle8 {
+    left: 42%;
+    top: 225%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.lock8 {
+    left: 42%;
+    top: 225%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+}
+
+div.circle9 {
+    left: 10%;
+    top: 256%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.lock9 {
+    left: 10%;
+    top: 256%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+}
+
+div.circle0 {
+    left: 1020px;
+    top: 1800px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.lock10 {
+    left: 1020px;
+    top: 1800px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+}
+
+
+/* Progress Bar */
+
+.progressbar-container {
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 60px;
+    border-radius: 25px;
+    border-width: 7px;
+    border-color: #704915;
+    background-color: #0A3400;
+    border-style: solid;
+    color: white;
+    width: 800px;
+    position: relative;
+    -webkit-box-shadow: 7px 6px 12px 4px rgba(0, 0, 0, 0.94);
+    box-shadow: 7px 6px 12px 4px rgba(0, 0, 0, 0.94);
+}
+
+h1 {
+    margin-top: 8px;
+    margin-left: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.meter {
+    height: 20px;
+    width: 69%;
+    margin-left: 201px;
+    margin-top: -63px;
+    position: relative;
+    background: #caab53f1;
+    margin-bottom: -150px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter>span {
+    display: block;
+    height: 100%;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43, 194, 83);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(43, 194, 83)), color-stop(1, rgb(84, 240, 84)));
+    background-image: -moz-linear-gradient( center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    -webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.meter>span:after,
+.animate>span>span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+    background-image: -moz-linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    z-index: 1;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    -webkit-animation: move 2s linear infinite;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+
+.animate>span:after {
+    display: none;
+}
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
 }

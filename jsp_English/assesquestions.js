@@ -79,16 +79,6 @@ const english2 = [
         q: 'Type the missing vowels of the image <br> <img src="/img_English/fish.jpg" alt="Girl in a jacket" width="100%,mkjhz" height="10%">',
         options:['A','E','I','O','U'],
         answer:2
-    },
-    {
-        q: 'Who is ur bias?',
-        options:['Sana','Mina','Chaeng','Dahyun'],
-        answer:0
-    },
-    {
-        q: 'Is ur favorite music streaming service is Spotify?',
-        options:['True','False'],
-        answer:0
     }
     ]
 
@@ -165,37 +155,107 @@ const english4 = [
     
 const english5 = [
     {
-        q: 'When is ur birthday?',
-        options:['January','February','May','June'],
+        q: 'What is the Synonym of the word Big ?',
+        options:['Happy','Large','Small','Silent'],
+        answer:1
+    },
+    {
+        q: 'What is the Synonym of the word Glad ?',
+        options:['Happy','Large','Small','Silent'],
+        answer:0
+    },
+    {
+        q: 'What is the Synonym of the word Little ?',
+        options:['Happy','Large','Small','Silent'],
         answer:2
     },
     {
-        q: 'Who is ur bias?',
-        options:['Sana','Mina','Chaeng','Dahyun'],
+        q: 'What is the Synonym of the word Sick ?',
+        options:['Ill','Save','Jump','Begin'],
         answer:0
     },
     {
-        q: 'Is ur favorite music streaming service is Spotify?',
-        options:['True','False'],
-        answer:0
+        q: 'What is the Synonym of the word Quiet ?',
+        options:['Happy','Large','Small','Silent'],
+        answer:3
+    },
+    {
+        q: 'What is the Synonym of the word Leap ?',
+        options:['Ill','Save','Jump','Begin'],
+        answer:2
+    },
+    {
+        q: 'What is the Synonym of the word Start ?',
+        options:['Ill','Save','Jump','Begin'],
+        answer:3
+    },
+    {
+        q: 'What is the Synonym of the word Mad ?',
+        options:['Angry','Large','Small','Silent'],
+        answer:2
+    },
+    {
+        q: 'What is the Synonym of the word Same ?',
+        options:['Angry','Large','Alike','Silent'],
+        answer:2
+    },
+    {
+        q: 'What is the Synonym of the word Keep ?',
+        options:['Angry','Stay','Small','Silent'],
+        answer:1
     }
     ]
     
 const english6 = [
     {
-        q: 'When is ur birthday?',
-        options:['January','February','May','June'],
+        q: 'It is red and round.',
+        options:['Orange','Apple','Grapes'],
+        answer:0
+    },
+    {
+        q: 'It has many windows and wheels.',
+        options:['Bus','hospital','House'],
+        answer:0
+    },
+    {
+        q: 'It eats carrots and it has long ears.',
+        options:['Rabbit','Frog','Butterfly'],
+        answer:0
+    },
+    {
+        q: 'Its front is pointy, and it fly in the sky.',
+        options:['Fan','Airplane','Umbrella'],
+        answer:1
+    },
+    {
+        q: 'It is green and it is a predator.',
+        options:['Crab','Bee','Crocodile'],
         answer:2
     },
     {
-        q: 'Who is ur bias?',
-        options:['Sana','Mina','Chaeng','Dahyun'],
+        q: 'It is round, and some lines are on it.',
+        options:['Balloon','Basketball','Egg'],
+        answer:1
+    },
+    {
+        q: 'It glows and it is in the sky.',
+        options:['Sun','Cloud','Mountain'],
         answer:0
     },
     {
-        q: 'Is ur favorite music streaming service is Spotify?',
-        options:['True','False'],
+        q: 'It is a rectangle and has a buttons on it.',
+        options:['Mail','Television','Blanket'],
+        answer:1
+    },
+    {
+        q: 'It is a bird, and it is not flying.',
+        options:['Chicken','Butterfly','Dog'],
         answer:0
+    },
+    {
+        q: 'He is an old man, and he wears a crown.',
+        options:['Magician','King','Noble'],
+        answer:1
     }
     ]
     

@@ -236,5 +236,5 @@ function start() {
 }
 
 function goHome() {
-  window.location.href = "../Math Page/topics_math.php";
+    window.location.href = "../Math Page/topics_math.php";
 }

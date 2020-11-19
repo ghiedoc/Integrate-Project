@@ -14,24 +14,33 @@ body {
     color: white;
     font-size: 60px;
   }
+
+.button:hover {
+    background-color: #450764;
+    -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+    box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+}
+
   .button {
-    margin-top: -0%;
-    margin-right: 1%;
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 60px;
     border-radius: 45px;
     border-width: 7px;
-    border-color: #7C45A5;
-    background-color: #59138D;
+    border-color: #671192;
+    background-color: #AB04B7;
     border-style: solid;
     color: white;
-    width: 9%;
+    width: 180px;
     font-size: 30px;
     float: right;
     font-family: 'Segoe UI';
     font-weight: bold;
     position: sticky;
-    text-align: center; 
+    z-index: 1;
+}
     
- }
 .table-wrapper {
     width: 75%;
     background: #fff;
