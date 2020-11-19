@@ -80,17 +80,30 @@ function nextButtonLoc() {
 }
 
 function createAssessmentBtn() {
-    var myDiv = document.getElementById("marker");
-    // creating button element  
-    var button = document.createElement('assessbutton');  // sa part na to sean check mo
-    // creating text to be 
-    //displayed on button 
-    var text = document.createTextNode("Assessment");
-    
-    // appending text to button 
-    button.appendChild(text);
-    button.onclick = hi;
-    // appending button to div 
-    myDiv.appendChild(button);
+  var myDiv = document.getElementById("marker");
+  myDiv.classList.add('btn_fil');
+
+  // creating button element  
+  var button = document.createElement('BUTTON');  // sa part na to sean check mo
+  // creating text to be 
+  //displayed on button 
+  var text = document.createTextNode("Assessment");
+  var style = document.createElement("style");
+  style.type = "text/css";
+  style.innerHTML =
+    ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+    "color: white; margin: auto;font-size: 2.5rem; left: 43%; font-size: 20px; height: auto;" +
+    "font-weight: bold; border: none; position: absolute; top:645%;" +
+    "padding: 10px 30px; height: text-align: center;" +
+    "text-decoration: none; display: inline-block;font-size: 25px;" +
+    "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #8d5a18;}";
+  document.head.appendChild(style);
+  button.className = "createAssessmentBtn";
+
+  // appending text to button 
+  button.appendChild(text);
+  button.onclick = hi;
+  // appending button to div 
+  myDiv.appendChild(button);
 }
 

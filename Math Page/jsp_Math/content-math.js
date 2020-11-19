@@ -193,13 +193,6 @@ function powerpoint(url) {
     container.className = "container";
     container.setAttribute("style", "width:100%;height:80%");
 
-
-
-    let framePane = document.createElement('iframe');
-    framePane.setAttribute("style", "width:100%;height:100%");
-    framePane.setAttribute("src", url);
-    container.appendChild(framePane);
-
     els.appendChild(container);
 
 }
@@ -224,12 +217,13 @@ function createAssessmentBtn() {
     var style = document.createElement("style");
     style.type = "text/css";
     style.innerHTML =
-        ".createAssessmentBtn{ position: absolute; top:91.5%;" +
-        "left: 45%; font-size: 20px; height: auto;" +
-        "background-color: #613870; color: black;" +
-        "border-color: white;height: 50px; text-align: center" +
-        "width: 200px; border-radius: 50px; border-width: thin" +
-        "margin: auto; padding: 5px 15px 15px 15px; color:white;}";
+     ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 43%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
+     
     document.head.appendChild(style);
     button.className = "createAssessmentBtn";
 
@@ -252,12 +246,12 @@ function createNextBtn1(i) {
     var style = document.createElement("style");
     style.type = "text/css";
     style.innerHTML =
-        ".createNextBtn1{ position: absolute; top:92%;" +
-        "left: 45%;" +
-        "background-color: #613870; color: black;" +
-        "border-color: white;height: 50px; text-align: center" +
-        "width: 200px;border-radius: 50px; border-width: thin" +
-        "margin: auto; padding: 5px 15px 15px 15px; color:white;}";
+        ".createNextBtn1{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 45%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
     document.head.appendChild(style);
     button_math.className = "createNextBtn1";
 
@@ -278,6 +272,17 @@ function createNextBtn2(i) {
     var myDiv = document.getElementById("marker");
     var button_math = document.createElement("button-math");
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+        ".createNextBtn1{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 45%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
+    document.head.appendChild(style);
+    button_math.className = "createNextBtn1";
     button_math.appendChild(text);
     if (i == 1) {
         button_math.onclick = nextUrl2_1;
@@ -300,6 +305,17 @@ function createNextBtn3(i) {
     var myDiv = document.getElementById("marker");
     var button_math = document.createElement("button-math");
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+        ".createNextBtn1{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 45%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
+    document.head.appendChild(style);
+    button_math.className = "createNextBtn1";
     button_math.appendChild(text);
     if (i == 1) {
         button_math.onclick = nextUrl3_1;
@@ -317,6 +333,17 @@ function createNextBtn4(i) {
     var myDiv = document.getElementById("marker");
     var button_math = document.createElement("button-math");
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+        ".createNextBtn1{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 45%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
+    document.head.appendChild(style);
+    button_math.className = "createNextBtn1";
     button_math.appendChild(text);
     if (i == 1) {
         button_math.onclick = nextUrl4_1;
@@ -330,6 +357,17 @@ function createNextBtn5(i) {
     var myDiv = document.getElementById("marker");
     var button_math = document.createElement("button-math");
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+        ".createNextBtn1{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 45%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
+    document.head.appendChild(style);
+    button_math.className = "createNextBtn1";
 
     button_math.appendChild(text);
     if (i == 1) {
@@ -344,6 +382,17 @@ function createNextBtn6(i) {
     var myDiv = document.getElementById("marker");
     var button_math = document.createElement("button-math");
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+        ".createNextBtn1{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 45%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
+    document.head.appendChild(style);
+    button_math.className = "createNextBtn1";
 
     button_math.appendChild(text);
     if (i == 1) {
@@ -363,6 +412,17 @@ function createNextBtn7(i) {
     var myDiv = document.getElementById("marker");
     var button_math = document.createElement("button-math");
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+        ".createNextBtn1{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 45%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
+    document.head.appendChild(style);
+    button_math.className = "createNextBtn1";
 
     button_math.appendChild(text);
     if (i == 1) {
@@ -378,6 +438,17 @@ function createNextBtn8(i) {
     var myDiv = document.getElementById("marker");
     var button_math = document.createElement("button-math");
     var text = document.createTextNode("Next");
+       var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+        ".createNextBtn1{ font-family: 'Segoe UI,', sans-serif;" +
+        "color: white; margin: auto;font-size: 2.5rem; left: 45%; font-size: 20px; height: auto" +
+        "font-weight: bold; border: none; position: absolute; top:90%;" +
+        "padding: 10px 30px; height: text-align: center;" +
+        "text-decoration: none; display: inline-block;font-size: 25px" +
+        "cursor: pointer;border-radius: 34px; border-style: solid; background-color: #4e852a;}";
+    document.head.appendChild(style);
+    button_math.className = "createNextBtn1";
 
     button_math.appendChild(text);
     if (i == 1) {
