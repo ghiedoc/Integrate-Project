@@ -241,5 +241,5 @@ function start() {
 }
 
 function goHome() {
-    window.location.href = "../English Page/topics_english.html";
+    window.location.href = "../English Page/topics_english.php";
 }

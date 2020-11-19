@@ -15,7 +15,7 @@ $done = $row["done"];
 
 $percentage = ($done / $total) * 100;
 
-$topics = ["Leksyon", "Mga tunog", "Pagbuo", "Buwan saka Araw", "Mga kulay", "Prutas", "", "", ""];
+$topics = ["Mga tunog", "Pagbuo", "Buwan saka Araw", "Mga kulay", "Prutas", "", "", ""];
 
 ?>
 
@@ -35,8 +35,11 @@ $topics = ["Leksyon", "Mga tunog", "Pagbuo", "Buwan saka Araw", "Mga kulay", "Pr
         <button class= "btn_back">BACK</button>
     </a>
   
-    <div class = "topics">
-        <img src="../images/Lesson Filipino.svg" alt="" class= "lesson">
+    <div class="topics">
+        <div id="pics1" value="1">
+          <img src="../images/Leksyon.svg" alt="" class="leksyon">
+        </div>
+        <br><br>
        
         <?php for($i = 1; $i <= $total; $i++) { ?>
             <!-- UNLOCKED -->
@@ -45,6 +48,7 @@ $topics = ["Leksyon", "Mga tunog", "Pagbuo", "Buwan saka Araw", "Mga kulay", "Pr
                 <div id= "pics1" value="<?=$i?>" onclick="showID(<?=$i?>)" >
                         <img src="../images/<?=$topics[$i-1]?>.svg" alt="" class = "pics">
                     </div>
+                    <br><br>  <br><br>
 
             <!-- LOCKED -->
             <?php } else { ?>
@@ -53,8 +57,8 @@ $topics = ["Leksyon", "Mga tunog", "Pagbuo", "Buwan saka Araw", "Mga kulay", "Pr
                         <div id= "pics1" value="1" >
                             <img src="../images/Lock_Lesson/Lock_Filipino/Alpabetong_Lock.svg" alt="" class = "pics">
                         </div>
+                        <br><br><br><br>
                     <?php } else if($i == 2) { ?>
-
                         <div id= "pics1" value="2">
                             <img src="../images/Lock_Lesson/Lock_Filipino/Pagbuo_Lock.svg" alt="" class = "pics">
                         </div>
@@ -62,16 +66,14 @@ $topics = ["Leksyon", "Mga tunog", "Pagbuo", "Buwan saka Araw", "Mga kulay", "Pr
                         <div id= "pics1" value="3"> 
                             <img src="../images/Lock_Lesson/Lock_Filipino/Buwan_Lock.svg" alt="" class = "pics">
                         </div>
+                        <br><br>  <br><br>
                     <?php } else if($i == 4) { ?>
                         <div id= "pics1" value="4" > 
                             <img src="../images/Lock_Lesson/Lock_Filipino/MgaKulay_Lock.svg" alt="" class = "pics">
                         </div>
+                        <br><br>  <br><br>
                     <?php } else if($i == 5) { ?>
                         <div id= "pics1" value="5" > 
-                            <img src="../images/Lock_Lesson/Lock_Filipino/Prutas_Lock.svg" alt="" class = "pics">
-                        </div>
-                        <?php } else if($i == 6) { ?>
-                        <div id= "pics1" value="6" > 
                             <img src="../images/Lock_Lesson/Lock_Filipino/Prutas_Lock.svg" alt="" class = "pics">
                         </div>
                     <?php } } } ?>
