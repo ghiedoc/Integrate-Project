@@ -332,6 +332,18 @@ function createAssessmentBtn() {
     // creating text to be 
     //displayed on button 
     var text = document.createTextNode("Assessment");
+
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 43%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn";
     // appending text to button 
     button.appendChild(text);
     button.onclick = hi;
@@ -346,6 +358,18 @@ function createNextBtn1(i) {
     // creating text to be 
     //displayed on button 
     var text = document.createTextNode("Next");
+
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 46%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn";
     // appending text to button 
     button.appendChild(text);
     if (i == 1) {
@@ -368,6 +392,17 @@ function createNextBtn2(i){
     var myDiv = document.getElementById("marker");
     var button = document.createElement('BUTTON'); 
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 46%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn";
     button.appendChild(text);
     if (i == 1) {
         button.onclick = nextUrl2_1;
@@ -384,9 +419,21 @@ function createNextBtn2(i){
 }
 
 function createNextBtn4(i){
+    
     var myDiv = document.getElementById("marker");          
     var button = document.createElement('BUTTON');  
-    var text = document.createTextNode("Next"); 
+    var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 46%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn"; 
     button.appendChild(text); 
     if(i==1){
         button.onclick = nextUrl4_1;
@@ -410,7 +457,17 @@ function createNextBtn5(i){
     var myDiv = document.getElementById("marker");          
     var button = document.createElement('BUTTON'); 
     var text = document.createTextNode("Next"); 
- 
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 46%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn";
     button.appendChild(text); 
     if(i==1){
         button.onclick = nextUrl5_1;
@@ -430,6 +487,17 @@ function createNextBtn6(i) {
     var myDiv = document.getElementById("marker");
     var button = document.createElement('BUTTON');
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 46%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn";
 
     button.appendChild(text);
 
@@ -451,6 +519,17 @@ function createNextBtn7(i) {
     var myDiv = document.getElementById("marker");
     var button = document.createElement('BUTTON');
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 46%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn";
 
     button.appendChild(text);
 
@@ -473,6 +552,17 @@ function createNextBtn8(i) {
     var myDiv = document.getElementById("marker");
     var button = document.createElement('BUTTON');
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 46%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn";
 
     button.appendChild(text);
 
@@ -496,6 +586,17 @@ function createNextBtn9(i) {
     var myDiv = document.getElementById("marker");
     var button = document.createElement('BUTTON');
     var text = document.createTextNode("Next");
+    var style = document.createElement("style");
+    style.type = "text/css";
+    style.innerHTML =
+      ".createAssessmentBtn{ font-family: 'Segoe UI,', sans-serif;" +
+      "color: white; margin: auto;font-size: 2.5rem; left: 46%; font-size: 20px; height: auto;" +
+      "font-weight: bold; border: none; position: absolute; top:90%;" +
+      "padding: 10px 30px; height: text-align: center;" +
+      "text-decoration: none; display: inline-block;font-size: 25px;" +
+      "cursor: pointer;border-radius: 34px; border-style: solid; background-color:#38a2cc;}";
+    document.head.appendChild(style);
+    button.className = "createAssessmentBtn";
 
     button.appendChild(text);
 

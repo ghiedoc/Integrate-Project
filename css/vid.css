@@ -217,29 +217,3 @@ iframe {
     justify-content: center;
 }
 /* for assesment button */
-button{
-    font-family: 'Segoe UI,', sans-serif;
-    color: white;
-    background-color: #00c700;
-    margin: auto;
-    font-size: 2.5rem;
-    font-weight: bold;
-    border: none;
-    padding: 15px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    cursor: pointer;
-    border-radius: 34px;
-    border-style: solid;
-    /* position on side of the video */
-    /* margin-left: 100%;
-    margin-top: -30px; */
-}
-
-button {
-    padding: 10px 30px;
-    text-align: left;
-    float: left;
-}
